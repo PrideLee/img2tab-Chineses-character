@@ -3,7 +3,7 @@
 ## Introduction
 Extract the table from the image (.pdf, .png, .jpg), and transform it to excel.
 
-Here, we try utilize two strategies:
+Here, we try to utilize two strategies:
 
 - Option A: Preprocessing the input images, and calling the API to recognize the table;
 - Option B: Do not rely on the API or SDK, realize the function by open source packages;
