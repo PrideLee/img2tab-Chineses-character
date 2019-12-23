@@ -73,25 +73,6 @@ def adjustion(path_img):
             # """
             # have to rewrite this parts.
             # """
-            # pylab.imshow(img)
-            # pylab.ion()
-            # pylab.pause(1)
-            # pylab.close()
-            # print('Please ensure whether to rotate the img:')
-            # rotation_flag = input()
-            # if rotation_flag == 'Yes':
-            #     print('Please input the rotation angle of img:')
-            #     angle = input()
-            #     for i in range(int(int(angle)/90)):
-            #         img = np.rot90(img)
-            #     pylab.imshow(img)
-            #     pylab.ion()
-            #     pylab.pause(1)
-            #     pylab.close()
-            #     print('Please ensure whether to rotate the img:')
-            #     rotation_flag_again = input()
-            #     if rotation_flag_again != 'No':
-            #         print('Error')
 
             ax.imshow(img)
             pylab.tight_layout()
