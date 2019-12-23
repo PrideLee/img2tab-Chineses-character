@@ -21,14 +21,21 @@ The detail steps includes:
 
 Based on the [Tessaract](https://github.com/tesseract-ocr/tesseract) and [pdftabextract](https://github.com/WZBSocialScienceCenter/pdftabextract) to recognize the table. To be specific, through pdftablextract package to dispose the table structure and apply tessaract to recognize the chinese characters.
 
-**pdateing !!!!!!!!!!!**
+**updating !!!!!!!!!!!**
 
 ## Usage and Example
 
 ### For option A:
 
 The original fiel:
-![The original fiel]()
+![The original fiel](https://github.com/PrideLee/img2tab-Chineses-character-/blob/master/Examples/option%20A/raw.png)
+
+The recognition result:
+![The recognition result](https://github.com/PrideLee/img2tab-Chineses-character-/blob/master/Examples/option%20A/html.png)
+
+You can click [**here**](https://github.com/PrideLee/img2tab-Chineses-character-/blob/master/Examples/option%20A/recognition.csv) and [**here**](https://github.com/PrideLee/img2tab-Chineses-character-/blob/master/Examples/option%20A/recognition.html) to check the final results.
+
+
 
 ### For Option B:
 
