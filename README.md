@@ -28,7 +28,7 @@ Based on the [Tessaract](https://github.com/tesseract-ocr/tesseract) and [pdftab
 ### For option A:
 
 The original fiel:
-![The original fiel](https://github.com/PrideLee/img2tab-Chineses-character-/blob/master/Examples/option%20A/raw.png)
+![The original fiel](https://github.com/PrideLee/img2tab-Chineses-character-/blob/master/Examples/option%20A/raw.jpg)
 
 The recognition result:
 ![The recognition result](https://github.com/PrideLee/img2tab-Chineses-character-/blob/master/Examples/option%20A/html.png)
