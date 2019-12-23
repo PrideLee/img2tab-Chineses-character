@@ -1,4 +1,4 @@
-# img2tab-Chineses-character-
+# img2tab-Chineses-character
 
 ## Introduction
 Extract the table from the image (.pdf, .png, .jpg), and transform it to excel.
@@ -21,7 +21,7 @@ The detail steps includes:
 
 Based on the [Tessaract](https://github.com/tesseract-ocr/tesseract) and [pdftabextract](https://github.com/WZBSocialScienceCenter/pdftabextract) to recognize the table. To be specific, through pdftablextract package to dispose the table structure and apply tessaract to recognize the chinese characters.
 
-Updateing !!!!!!!!!!!
+**pdateing !!!!!!!!!!!**
 
 ## Usage and Example
 
