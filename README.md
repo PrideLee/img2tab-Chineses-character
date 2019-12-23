@@ -25,5 +25,13 @@ Based on the [Tessaract](https://github.com/tesseract-ocr/tesseract) and [pdftab
 
 ## Usage and Example
 
-For option.
+### For option A:
 
+The original fiel:
+![The original fiel]()
+
+### For Option B:
+
+## License
+
+MIT License.
