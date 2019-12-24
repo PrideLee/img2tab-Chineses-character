@@ -14,7 +14,7 @@ The detail steps includes:
 
 - Step1. pdf2img. Transform the pdf files to img.
 - Step2. preprocessing. Processing the images, include rotation, clip.
-- Step3. Recognition. Calling the Ali api to recognize the table.
+- Step3. Recognition. Calling the [Ali](https://market.aliyun.com/products/57124001/cmapi024968.html?spm=a2c4g.11186623.2.30.22de28c2aQrFQG#sku=yuncode1896800000) api to recognize the table.
 - Step4. Saving. Saving the excel files, and delete the intermediate results as well as temp files. 
 
 ### Option B
