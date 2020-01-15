@@ -19,9 +19,21 @@ The detail steps includes:
 
 ### Option B
 
-Based on the [Tessaract](https://github.com/tesseract-ocr/tesseract) and [pdftabextract](https://github.com/WZBSocialScienceCenter/pdftabextract) to recognize the table. To be specific, through pdftablextract package to dispose the table structure and apply tessaract to recognize the chinese characters.
+Thanks to Ray Smith's team, based on the [Tesseract](https://github.com/tesseract-ocr/tesseract) to recognize the table. To be specific, through pdftablextract package to dispose the table structure and apply tessaract to recognize the chinese characters.
 
-**updating !!!!!!!!!!!**
+And you have to download Tesserect from [here](https://digi.bib.uni-mannheim.de/tesseract/).
+Then you have to add the enviroment variable: TESSDATA_PREFIX=\Tesseract-OCR\tessdata (the dir path you save the Tesseract-OCR\tessdata).
+
+The pipeline of table recognition:
+
+- Step1. Transform the pdf file to image(.png).
+- Step2. Clip the image and extract the table we want to recognize, which recognize by interaction.
+- Step3. Adjust the skew image, based on four point perspective algorithm.
+- Step4. Point by point scanning to detect the lines (Hough transformation do not work in many situtation).
+- Step5. Parse the image and segment the table to each grid.
+- Step6. Recognize the character of each grid by tesseract.
+- Step7. Save the final results as CSV files.
+
 
 ## Usage and Example
 
@@ -38,6 +50,8 @@ You can click [**here**](https://github.com/PrideLee/img2tab-Chineses-character-
 
 
 ### For Option B:
+
+
 
 ## License
 
