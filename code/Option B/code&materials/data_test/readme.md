@@ -1,0 +1,2 @@
+- Saving the material files (.pdf, .png, .jpg) 
+- img folder is the intermediate production, which includes the clip images 
