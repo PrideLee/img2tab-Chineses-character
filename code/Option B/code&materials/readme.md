@@ -1,0 +1,3 @@
+- main.py is the main function;
+- data_test folder saves the input files.
+- generate_output folder will save the final results, include the clip images, fragment images, recognize results as well.  
