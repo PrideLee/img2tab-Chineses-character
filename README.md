@@ -58,7 +58,7 @@ Segmentation result:
 ![segmentation](https://github.com/PrideLee/img2tab-Chineses-character/blob/master/code/Option%20B/code%26materials/generated_output/10001-1-lines-orig.png)
 
 The recognition result:
-![The recognition result]https://github.com/PrideLee/img2tab-Chineses-character/blob/master/code/Option%20B/code%26materials/results.png)
+![The recognition result](https://github.com/PrideLee/img2tab-Chineses-character/blob/master/code/Option%20B/code%26materials/results.png)
 
 You can click [**here**](https://github.com/PrideLee/img2tab-Chineses-character/blob/master/code/Option%20B/code%26materials/generated_output/results/10001-1.csv) to check the final results.
 
