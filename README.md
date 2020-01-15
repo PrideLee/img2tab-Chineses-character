@@ -28,8 +28,8 @@ The pipeline of table recognition:
 
 - Step1. Transform the pdf file to image(.png).
 - Step2. Clip the image and extract the table we want to recognize, which recognize by interaction.
-- Step3. Adjust the skew image, based on four point perspective algorithm.
-- Step4. Point by point scanning to detect the lines (Hough transformation do not work in many situtation).
+- Step3. Adjust the skew image, based on four points perspective algorithm.
+- Step4. Point by point scanning to detect the lines (Hough transformation do not work in many situations).
 - Step5. Parse the image and segment the table to each grid.
 - Step6. Recognize the character of each grid by tesseract.
 - Step7. Save the final results as CSV files.
@@ -39,7 +39,7 @@ The pipeline of table recognition:
 
 ### For option A:
 
-The original fiel:
+The original file:
 ![The original fiel](https://github.com/PrideLee/img2tab-Chineses-character-/blob/master/Examples/option%20A/raw.jpg)
 
 The recognition result:
@@ -51,7 +51,16 @@ You can click [**here**](https://github.com/PrideLee/img2tab-Chineses-character-
 
 ### For Option B:
 
+The original fiel:
+![The original fiel](https://github.com/PrideLee/img2tab-Chineses-character/blob/master/code/Option%20B/code%26materials/1.png)
 
+Segmentation result:
+![segmentation](https://github.com/PrideLee/img2tab-Chineses-character/blob/master/code/Option%20B/code%26materials/generated_output/10001-1-lines-orig.png)
+
+The recognition result:
+![The recognition result]https://github.com/PrideLee/img2tab-Chineses-character/blob/master/code/Option%20B/code%26materials/results.png)
+
+You can click [**here**](https://github.com/PrideLee/img2tab-Chineses-character/blob/master/code/Option%20B/code%26materials/generated_output/results/10001-1.csv) to check the final results.
 
 ## License
 
